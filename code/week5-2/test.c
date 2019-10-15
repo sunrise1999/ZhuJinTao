@@ -1,4 +1,4 @@
-#include "head.h"
+#include "/media/zjt/hardStore2/学习用/week5/week5-1/head.h"
 int main(void)
 {
 	int *a = NULL;

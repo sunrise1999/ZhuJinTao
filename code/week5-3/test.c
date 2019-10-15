@@ -9,7 +9,7 @@ int main(void)
 	int(*f1)();
 	int(*f2)();
 	char *error;
-	handle = dlopen("/media/zjt/hardStore2/学习用/week5/code/week5-3/libfunc.so",RTLD_LAZY);
+	handle = dlopen("/media/zjt/hardStore2/学习用/week5/code/week5-3/libabc.so",RTLD_LAZY);
 	if(!handle)
 	{
 		perror("load failed!\n");
