@@ -1,0 +1,10 @@
+evn 2>err.dat
+Command 'evn' not found, did you mean:
+
+  command 'mvn' from deb maven
+  command 'env' from deb coreutils
+  command 'svn' from deb subversion
+  command 'eqn' from deb groff-base
+
+Try: sudo apt install <deb name>
+
