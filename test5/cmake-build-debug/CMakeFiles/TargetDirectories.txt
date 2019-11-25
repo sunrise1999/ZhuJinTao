@@ -1,3 +1,0 @@
-/home/zjt/CLionProjects/test5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zjt/CLionProjects/test5/cmake-build-debug/CMakeFiles/test5.dir
-/home/zjt/CLionProjects/test5/cmake-build-debug/CMakeFiles/edit_cache.dir
