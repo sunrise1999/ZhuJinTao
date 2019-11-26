@@ -16,7 +16,6 @@ int main()
     }
     pid_t pid;
     pid = fork();
-    pid = fork();
     if(pid < 0)
     {
         fprintf(stderr,"fork failed.\nerror reason = %s\n",strerror(errno));
@@ -25,7 +24,7 @@ int main()
     else if(pid == 0)
     {
         fprintf(stdout,"[child] i will close the last read ebd of pipe.pd = %d,ppid = %d\n",getpid(),getppid());
-        sleep(300);
+        //sleep(300);
         close(fd[0]);
         exit(0);
     }
